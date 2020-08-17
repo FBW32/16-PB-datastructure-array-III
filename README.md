@@ -3,8 +3,9 @@
 # Array Exercises 
 ## These exercises are aimed at practicing arrays and array methods. Print each task to the console.
 
-### Declare a variable named myArr and assign an array to the variable e.g. input ==> [
-    'item1',
+### Declare a variable named myArr and assign an array to the variable e.g. input ==> 
+
+  [  'item1',
      'item2',
      [
      2,
@@ -16,8 +17,9 @@
              'subSubItem1', 'subSubItem2'
             ]
         ]
-    ]
- ].
+    ] ]
+ 
+ 
 
 1. clone the array.
 
