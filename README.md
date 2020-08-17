@@ -5,18 +5,18 @@
 
 ### Declare a variable named myArr and assign an array to the variable e.g. input ==> 
 
-  [  'item1',
-     'item2',
-     [
-     2,
-     3,
-     4,
-     
-         ['subItem1','subItem2',
-           [
+     [  'item1',
+        'item2',
+      [
+           2,
+           3,
+           4,
+          [
+           'subItem1','subItem2',
+            [
              'subSubItem1', 'subSubItem2'
             ]
-        ]
+          ]
     ] ]
  
  
@@ -27,18 +27,20 @@
 
 3. shift subSubItem2 as first item in array.
 
-output ==> [
-    'subSubItem1',
-    'item1',
-     'item2',
+output ==>
+
      [
-     2,
-     3,
-     4,
-     
-         ['subItem1','subItem2',
-           [
-             'subSubItem1']
-        ]
-    ]
- ]
+
+        'subSubItem1',
+        'item1',
+        'item2',
+        [
+         2,
+         3,
+         4,
+          [
+           'subItem1','subItem2', ['subSubItem1']
+          [
+             
+        
+    ] ]
