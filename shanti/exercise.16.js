@@ -16,8 +16,10 @@ let myArr = [
 ];
 
 /* 1. clone the array. */
-let arr2 = JSON.stringify(myArr);
-console.log(arr2); // ["item1","item2",[2,3,4,["subItem1","subItem2",["subSubItem1","subSubItem2"]]]]
+// let arr2 = JSON.stringify(myArr);
+// console.log(arr2); // ["item1","item2",[2,3,4,["subItem1","subItem2",["subSubItem1","subSubItem2"]]]]
+let clone = myArr.concat();
+console.log(clone); // [ 'item1', 'item2', [ 2, 3, 4, [ 'subItem1', 'subItem2', [Array] ] ] ]
 
 /* 2. store subSubItem2 in var and remove it. */
 var storedItem = myArr[2][3][2][1];
